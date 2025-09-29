@@ -1,23 +1,5 @@
-# React + Vite
+# Projeto TCC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-Cores:
-
-Beges (do mais claro pro mais escuro):
-#ECBB92
-#C89278
-#A0615C
-#924E4D
-
-Navbar:
-#806a58
+O projeto nasceu a partir de um Trabalho de Conclusão de Curso (TCC) e tem como objetivo principal auxiliar os professores a simplificarem materiais didáticos por meio da técnica de Leitura Fácil. Essa iniciativa é voltada para promover a acessibilidade e a igualdade de oportunidades nos cursos técnicos de ensino superior do Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSUL).
+A Leitura Fácil é uma abordagem que busca adaptar textos para torná-los mais compreensíveis, mantendo as informações essenciais, mas usando linguagem clara e direta. Com o aumento da diversidade nas salas de aula e a presença de estudantes com diferentes necessidades de aprendizagem, essa técnica se mostra fundamental para garantir que todos possam ter acesso ao conteúdo de maneira igualitária.
+O projeto não apenas oferece suporte para que os educadores possam criar materiais didáticos mais acessíveis, mas também visa conscientizar sobre a importância da inclusão e do respeito às diferenças no ambiente acadêmico. Ao adotar estratégias de Leitura Fácil, busca-se não apenas melhorar a compreensão dos estudantes, mas também incentivar uma educação mais inclusiva e democrática.
