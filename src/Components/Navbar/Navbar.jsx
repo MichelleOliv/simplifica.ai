@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 
-const Nacbar = () => {
+const Navbar = () => {
   return (
     <nav className='container'>
         <img src={logo} alt="" className='logo'/>
@@ -17,4 +17,4 @@ const Nacbar = () => {
   )
 }
 
-export default Nacbar
+export default Navbar
