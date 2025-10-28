@@ -4,6 +4,9 @@ import Hero from './Components/Hero/Hero'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Feedbacks from './Components/Feedbacks/Feedbacks'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
+import Simplifiqueai from './Components/Simplifiqueai/Simplifiqueai'
 
 const App = () => {
   return (
@@ -13,10 +16,13 @@ const App = () => {
       <div className="container">
         <Title subTitle='Quem somos nós?' title='Saiba quem está por trás da plataforma'/>
         <About/>
+        <Title subTitle='Simplifique' title='Adapte o seu material em um estalar de dedos'/>
+        <Simplifiqueai/>
         <Title subTitle='Feedbacks' title='O que os usuários estão dizendo'/>
         <Feedbacks/>
-        <Title subTitle='Nos Contate' title='Entre em contato'/>
-        
+        <Title subTitle='Nos contate' title='Entre em contato'/>
+        <Contact/>
+        <Footer/>
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 nav{
     width: 100%;
-    background: #835a38;
+    background: #9a615a linear-gradient(rgba(104, 40, 40, 0.6),rgba(63, 9, 9, 0.6));
     color: #fff;
     padding: 4px 0;
     position: fixed;
