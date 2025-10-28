@@ -40,8 +40,9 @@ const Contact = () => {
         <h3>Mande-nos uma mensagem <img alt="" /></h3>
         <p>Fique à vontade para nos mandar suas informações de contato abaixo. Seus feedbacks e dúvidas são muito importantes para nós!</p>
         <ul>
-            <li><img src={mail_icon} alt="" />fulano@gmail.com</li>
-            <li><img src={phone_icon} alt="" />+55 (51) 3333-3333</li>
+            <li><img src={mail_icon} alt="" />michelleoliveira.ss004@academico.ifsul.edu.br</li>
+            <li><img src={mail_icon} alt="" />brunamotta.ss001@academico.ifsul.edu.br</li>
+            <li><img src={phone_icon} alt="" />+55 (51) 98993-0250</li>
             <li><img src={location_icon} alt="" />Av. Copacabana - Piratini, Sapucaia do Sul<br/> RS, 93216-120</li>
         </ul>
       </div>

@@ -16,12 +16,12 @@ const App = () => {
       <div className="container">
         <Title subTitle='Quem somos nós?' title='Saiba quem está por trás da plataforma'/>
         <About/>
-        <Title subTitle='Simplifique' title='Adapte o seu material em um estalar de dedos'/>
-        <Simplifiqueai/>
         <Title subTitle='Feedbacks' title='O que os usuários estão dizendo'/>
         <Feedbacks/>
         <Title subTitle='Nos contate' title='Entre em contato'/>
         <Contact/>
+        <Title subTitle='Simplifique' title='Adapte o seu material em um estalar de dedos'/>
+        <Simplifiqueai/>
         <Footer/>
       </div>
     </div>
