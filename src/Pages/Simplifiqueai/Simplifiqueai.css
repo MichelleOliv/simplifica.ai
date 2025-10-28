@@ -26,7 +26,7 @@
     display: flex;
     width: 75%;
     height: 500px;
-    background-color: #f3ebe4a9;
+    background-color: #e6dad4;
     padding: 15px;
     outline: 0;
     margin-bottom: 15px;
@@ -35,6 +35,7 @@
     border: solid 3px #581515;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    font-size: 17px;
 }
 
 .chat form textarea button img{

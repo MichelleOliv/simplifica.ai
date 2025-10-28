@@ -1,6 +1,5 @@
 import React from 'react'
 import './Simplifiqueai.css'
-import white_arrow from '../../assets/white-arrow.png'
 
 const Simplifiqueai = () => {
     return (

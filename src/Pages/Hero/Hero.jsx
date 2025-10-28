@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import estudoIgualitario3 from '../../assets/estudoIgualitario3.jpg'
 import icone from '../../assets/icone.png'
+import { Link } from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
             <img src={icone} alt="icone" />
             <h1>Buscamos por um mundo iguaitário</h1>
             <p>Pois a educação é para todos</p>
-            <button className='dark-btn'>Simplificar</button>
+            <button className='dark-btn'><Link to='simplifiqueai' smooth={true} offset={-200} duration={500} >Simplifique</Link></button>
           </div>
         </div>
         <div className='hero-right'>

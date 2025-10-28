@@ -1,10 +1,8 @@
 import React from 'react'
 import './Contact.css'
-import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
-import white_arrow from '../../assets/white-arrow.png'
 
 const Contact = () => {
 
@@ -54,7 +52,7 @@ const Contact = () => {
             <input type="text" name='phone' placeholder='Coloque seu número de telefone' required/>
             <label htmlFor="">Escreva sua mensagem aqui</label>
             <textarea name="message" rows="6" placeholder='Escreva sua mensagem' required></textarea>
-            <button type='submit' className='dark-btn'>Enviar <img src={white_arrow} alt="" /></button>
+            <button type='submit' className='dark-btn'>Enviar</button>
         </form>
         <span>{result}</span>
       </div>
