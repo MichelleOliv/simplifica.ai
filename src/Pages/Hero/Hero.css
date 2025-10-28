@@ -1,5 +1,5 @@
 .hero-container{
-    background-color: #ccb4a8;
+    background-color: #e7e5df;
     min-height: 100vh;
 }
 
@@ -28,6 +28,19 @@
     align-items: center;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(86, 3, 3, 0.2);
+    position: relative;
+}
+
+.hero-right::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(108, 27, 33, 0.2), rgba(63, 9, 9, 0.4));
+    z-index: 1;
+    pointer-events: none;
 }
 
 .hero-right img {
@@ -35,6 +48,8 @@
     height: 100%;
     object-fit: cover;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 0;
 }
 
 .hero-text h1{
@@ -53,4 +68,5 @@
 
 .hero-text img{
     width: 60px;
+
 }

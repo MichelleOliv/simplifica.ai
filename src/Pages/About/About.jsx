@@ -13,7 +13,11 @@ const About = () => {
                         <img src={michelleImg} alt="" />
                         <div className="caption">
                             <h1>Michelle Gonçalves</h1>
-                            <p>breve apresentação</p>
+                            <p>23 anos, nascida em Betim, Minas gerais. Atualmente, cursa Análise e Desenvolvimento de Sistemas (ADS) no IFSUL, desde 2023, quando descobriu sua paixão pela área da tecnologia. 
+                            </p>
+                            <p>Trabalha há um ano e meio na SAP como engenheira de suporte técnico, desempenhando um papel crucial na resolução de desafios tecnológicos e contribuindo para a inovação dentro da empresa. 
+                            </p>
+                            <p>Em seu tempo livre, Michelle gosta de se dedicar a jogos de FPS, assistir doramas e fazer crochê.</p>
                         </div>
                     </div>
                     <div className='foto'>
