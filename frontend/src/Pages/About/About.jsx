@@ -3,6 +3,7 @@ import './About.css'
 import about_img from '../../assets/about.png'
 import michelleImg from '../../assets/michelleImg.png'
 import brunaImg from '../../assets/brunaImg.png'
+import icone from '../../assets/icone.png'
 
 const About = () => {
     return (
@@ -31,7 +32,7 @@ const About = () => {
             </div>
             <div className="about-down">
                 <div className='about-left'>
-                    <img src={about_img} alt="" className='about-img' />
+                    <img src={icone} alt="" className='icone' />
                 </div>
                 <div className='about-right'>
                     <h1>De onde surgiu?</h1>
