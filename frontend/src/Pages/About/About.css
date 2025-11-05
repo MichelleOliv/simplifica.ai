@@ -40,10 +40,10 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    margin: 25px;
+    margin: 20px;
 }
 .caption p{
-    font-size: 18px;
+    font-size: 22px;
     display: flex;
     margin: 5px 15px;
     padding: 0 5%;
@@ -84,7 +84,7 @@
 
 .about-right{
     flex-basis: 56%;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .about-img{
@@ -96,7 +96,7 @@
 
 .about h2{
     color: #9a615a;
-    font-size: 17px;
+    font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 15px;
@@ -104,7 +104,7 @@
 }
 
 .about h1{
-    font-size: 36px;
+    font-size: 45px;
     margin-top: 5px;
     color: #3f0909;
     margin-top: 5px;

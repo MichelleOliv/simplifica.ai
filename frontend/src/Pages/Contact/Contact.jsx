@@ -36,7 +36,8 @@ const Contact = () => {
     <div className='contact'>
       <div className='contact-col'>
         <h3>Mande-nos uma mensagem <img alt="" /></h3>
-        <p>Fique à vontade para nos mandar suas informações de contato abaixo. Seus feedbacks e dúvidas são muito importantes para nós!</p>
+        <p>Fique à vontade para nos mandar suas dúvidas, críticas ou sugestões nos contatos abaixo ou preenchendo o formulário ao lado.</p>
+        <p>Suas opniões e dúvidas são muito importantes para nós!</p>
         <ul>
             <li><img src={mail_icon} alt="" />michelleoliveira.ss004@academico.ifsul.edu.br</li>
             <li><img src={mail_icon} alt="" />brunamotta.ss001@academico.ifsul.edu.br</li>

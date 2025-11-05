@@ -14,14 +14,12 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className="container">
-        <Title subTitle='Quem somos nós?' title='Saiba quem está por trás da plataforma'/>
-        <About/>
-        <Title subTitle='Feedbacks' title='O que os usuários estão dizendo'/>
-        <Feedbacks/>
-        <Title subTitle='Nos contate' title='Entre em contato'/>
-        <Contact/>
         <Title subTitle='Simplifique' title='Adapte o seu material em um estalar de dedos'/>
         <Simplifiqueai/>
+        <Title subTitle='Quem somos nós?' title='Saiba quem está por trás da plataforma'/>
+        <About/>
+        <Title subTitle='Nos contate' title='Entre em contato'/>
+        <Contact/>
         <Footer/>
       </div>
     </div>

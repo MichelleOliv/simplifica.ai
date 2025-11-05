@@ -11,9 +11,9 @@ const Hero = () => {
         <div className='hero-left'>
           <div className='hero-text'>
             <img src={icone} alt="icone" />
-            <h1>Buscamos por um mundo iguaitário</h1>
+            <h1>Buscamos um mundo igualitário</h1>
             <p>Pois a educação é para todos</p>
-            <button className='dark-btn'><Link to='simplifiqueai' smooth={true} offset={-200} duration={500} >Simplifique</Link></button>
+            <button className='button'><Link to='simplifiqueai' smooth={true} offset={-200} duration={500} >Simplifique</Link></button>
           </div>
         </div>
         <div className='hero-right'>

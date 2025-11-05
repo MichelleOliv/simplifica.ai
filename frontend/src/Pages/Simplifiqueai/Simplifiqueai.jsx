@@ -43,7 +43,7 @@ const Simplifiqueai = () => {
                     <textarea 
                         name="message" 
                         rows="6" 
-                        placeholder='Escreva sua mensagem' 
+                        placeholder='Cole aqui o texto que você deseja adaptar.' 
                         required
                         value={texto}
                         onChange={(e) => setTexto(e.target.value)}
@@ -59,7 +59,6 @@ const Simplifiqueai = () => {
                             __html: DOMPurify.sanitize(resposta)
                         }}
                         />
-                        {/* <ReactMarkdown remarkPlugins={[remarkBreaks]}>{resposta}</ReactMarkdown> */}
                 </div>
             )}
         </div>

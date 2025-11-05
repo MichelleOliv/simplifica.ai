@@ -49,17 +49,16 @@
 .chat form textarea{
     display: flex;
     width: 75%;
-    height: 500px;
+    height: 450px;
     background-color: #e6dad4;
     padding: 15px;
     outline: 0;
     margin-bottom: 15px;
-    margin-top: 5px;
     resize: none;
     border: solid 1px #581515;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .chat form textarea button img{
