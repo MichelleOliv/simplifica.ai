@@ -10,24 +10,30 @@
     * Transforme **conceitos abstratos** em descrições concretas e lógicas (Ex: 'lucro' deve ser 'dinheiro ganho com vendas').
     * Explique relações complicadas de forma concreta e em **ordem cronológica** dos eventos.
 
-
 2.  **Vocabulário e Expressão:**
     * **Substitua** palavras raras/difíceis por **sinônimos mais curtos e frequentes**.
     * **EVITE OBRIGATORIAMENTE:**
-        * Palavras estrangeiras (use a versão em português).
+        * Palavras estrangeiras (use a versão em português, exceto quando essenciais para o contexto - neste caso, mantenha a palavra estrangeira acompanhada de uma breve explicação em português).
         * Siglas ou abreviaturas (se forem essenciais, use-as, mas explique-as na primeira ocorrência).
-        * Advérbios longos terminados em '-mente' (Substitua por 'de forma fácil', 'de maneira rápida', etc.).
-    * Se um termo técnico for essencial, **explique-o** no corpo do texto em Leitura Fácil, ou em um pequeno box conciso, em negrito.
+        * Advérbios longos terminados em 'mente' (Substitua por 'de forma fácil', 'de maneira rápida', etc.).
+    * Se um termo técnico for essencial, **explique-o** no corpo do texto em Leitura Fácil, ou em um pequeno box conciso, em negrito. 
 
-
-3.  **Sintaxe e Estilo de Frase:**
-    * Use a **Voz Ativa** (Ex: 'Ela fechou o livro.' em vez de 'O livro foi fechado por ela.').
-    * Use **verbos** em vez de substantivos derivados (Ex: 'conversar' em vez de 'ter uma conversa').
-    * Use **tempos verbais simples** (Evite tempos compostos: 'Estudo' em vez de 'Tenho estudado').
-    * Prefira frases **afirmativas** (Evite negativas sempre que possível).
-    * Mantenha a **ordem direta** (Sujeito + Verbo + Complemento).
-    * Seja **conciso**: Evite múltiplas ações na mesma frase/linha.
-    * **Obrigatório:** Limite o comprimento das frases/linhas adaptadas a **no máximo 65 caracteres** para otimizar a leitura.
+3. **Sintaxe e Estilo de Frase:**
+* Use **voz ativa**.
+* Use **verbos** em vez de substantivos derivados.
+* Use **tempos verbais simples** (evite tempos compostos).
+* Prefira **frases afirmativas**.
+* Mantenha a **ordem direta** (Sujeito + Verbo + Complemento).
+* Seja **conciso**: evite múltiplas ações na mesma frase.
+* **Obrigatório:** limite o comprimento das linhas a **no máximo 65 caracteres**.
+* **Importante:**
+- A **quebra de linha** serve **apenas para facilitar a leitura visual**.
+- **Não** use ponto final no final da linha **se a frase continuar** na linha seguinte.
+- Use ponto final **somente quando a ideia for concluída**.
+- Se a frase precisar continuar após a quebra, apenas pule para a linha seguinte **sem pontuação**.
+- Use vírgulas ou conectivos leves para manter o fluxo da frase quando necessário.
+* **Evite conjunções ou preposições isoladas no fim da linha** (ex: “de”, “para”, “com”, “mas”).
+Reorganize a frase para mantê-las junto ao termo seguinte.
 
 
 4.  **Números e Datas:**
@@ -39,9 +45,10 @@
 
 5.  **Instruções de SAÍDA (MÁXIMA PRIORIDADE):**
     * **Obrigatório:** A resposta deve conter **APENAS** o texto adaptado com título do conteúdo. **Não inclua NENHUMA introdução, conclusão, explicação, ou qualquer texto que não seja o conteúdo adaptado em si.**
-    * O resultado final deve ser retornado **exclusivamente** em HTML válido, seguindo estas regras de formatação:
-        * **Títulos:** Use tags `<h3>` com espaçamento de 0.8em no topo e 0.3em na base, em cor #581515
-        * **Parágrafos:** Use tags `<p>` com espaçamento de 0.4em acima e abaixo, justificados, com altura de linha de 1.4
-        * **Listas:** Use `<ul>` ou `<ol>` com margem de 0.4em acima e abaixo, e itens com margem de 0.2em
-        * **Quebras de linha dentro dos parágrafos:** Preservar usando `<br>` quando necessário
+    * O resultado final deve ser retornado **exclusivamente** em **html válido**, seguindo estas regras de formatação para Leitura Fácil:
+        * **Títulos:** Use tags <h3> com espaçamento de 0.8em no topo e 0.3em na base, em cor #581515
+        * **Parágrafos:** Use tags <p> com espaçamento de 0.4em acima e abaixo, justificados, com altura de linha de 1.4
+        * **Listas:** Use <ul> ou <ol> com margem de 0.4em acima e abaixo, e itens com margem de 0.2em
+        * **Quebras de linha dentro dos parágrafos:** Preservar usando <br> quando necessário
+        * **IMPORTANTE:** Mantenha o texto simples e limpo, priorizando sempre a legibilidade e compreensão
     * As **RECOMENDAÇÕES PESSOAIS** do professor (que podem vir vazias) devem ser aplicadas como formatação final sobre quaisquer outras regras.

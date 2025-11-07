@@ -24,25 +24,6 @@ a{
   padding-right: 10%;
 }
 
-.btn{
-  background: #f7f3f0;
-  color: #212121;
-  padding: 14px 25px;
-  border-radius: 30px;
-  cursor: pointer;
-  border: 0;
-  outline: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.btn img{
-  width: 15px;
-  margin-left: 10px;
-}
-
 .dark-btn{
   background-color: #3f0909;
   color:#f7f3f0;
@@ -58,9 +39,22 @@ a{
   height: 60px;
   font-size: 20px;
 
+  transition: 
+        background-color 0.3s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.dark-btn img{
-  width: 20px;
-  margin-left: 10px;
+.dark-btn:hover {
+    background-color: #7a1c1c;
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+
+.dark-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    background-color: #4a0f0f;
 }

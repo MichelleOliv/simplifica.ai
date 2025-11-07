@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import estudoIgualitario3 from '../../assets/estudoIgualitario3.jpg'
+import estudoIgualitario2 from '../../assets/estudoIgualitario2.jpg'
 import icone from '../../assets/icone.png'
 import { Link } from 'react-scroll'
 
@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='hero-right'>
-          <img src={estudoIgualitario3} alt="estudoIgualitario3"/>
+          <img src={estudoIgualitario2} alt="estudoIgualitario2"/>
         </div>
       </div>
     </div>

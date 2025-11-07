@@ -2,7 +2,7 @@
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: column;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -29,26 +29,21 @@
     color: #333;
 }
 .chat{
-    margin: 30px auto;
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.chat form{
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
-    width: 90%;
-    align-items: center;
-    align-content: center;
+    align-items: stretch;
 }
 
-.chat form textarea{
+.texto{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    width: 75%;
+    flex-direction: column;
+}
+.texto textarea{
+    width: 100%;
     height: 450px;
     background-color: #e6dad4;
     padding: 15px;
@@ -56,26 +51,92 @@
     margin-bottom: 15px;
     resize: none;
     border: solid 1px #581515;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     font-size: 20px;
+    box-sizing: border-box;
 }
-
-.chat form textarea button img{
-    width: 50px;
-}
-
-.texto {
+.observacao{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content: column;
-    align-items: center;
-    margin-top: 10px;
     flex-direction: column;
-    width: 90%;
-    margin-bottom: 20px;
 }
-.response-box {
+.observacao textarea{
     width: 100%;
+    height: 70px;
+    background-color: #e6dad4;
+    padding: 15px;
+    outline: 0;
+    margin-bottom: 15px;
+    resize: none;
+    border: solid 1px #581515;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.simplifiqueai .chat form .dark-btn {
+    align-self: center;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+.simplifiqueai .dark-btn-pdf {
+    align-self: center;
+    display: block;
+    margin: 20px auto 0 auto;
+    background-color: #3f0909;
+    color:#f7f3f0;
+    padding: 14px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 180PX;
+    height: 60px;
+    font-size: 20px;
+
+    transition: 
+        background-color 0.3s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.dark-btn-pdf:hover {
+    background-color: #7a1c1c;
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+
+.dark-btn-pdf:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    background-color: #4a0f0f;
+}
+
+.chat label{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #9a615a;
+    font-weight: 600;
+}
+
+.status-msg {
+    text-align: center;
+    font-size: 18px;
+    color: #3e3e3e;
+    margin-top: 15px;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.response-box {
+    width: 80%;
     min-height: 500px;
     background-color: #e6dad4;
     padding: 15px 100px;
