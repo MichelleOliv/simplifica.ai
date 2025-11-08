@@ -36,11 +36,12 @@
     padding-top: 70%;
     transition: 0.4s;
 }
-.caption h1{
+.about .caption h1{
     align-items: center;
     justify-content: center;
     display: flex;
     margin: 20px;
+    color: white;
 }
 .caption p{
     font-size: 22px;
