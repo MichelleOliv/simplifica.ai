@@ -52,7 +52,15 @@ const Simplifiqueai = () => {
     const responseElement = document.querySelector('.response-box')
     if (!responseElement) return
 
-    const plainText = responseElement.innerText || ''
+        let plainText = responseElement.innerText || ''
+        
+         plainText = plainText
+        .replace(/<\/h[1-6]>/g, '\n\n')   // quebra após títulos
+        .replace(/<\/p>/g, '\n\n')        // quebra após parágrafos
+        .replace(/<br\s*\/?>/g, '\n')     // mantém <br> como quebra de linha
+        .replace(/<[^>]+>/g, '')          // remove o resto das tags
+        .replace(/\n{3,}/g, '\n\n')       // reduz múltiplas quebras a apenas uma dupla
+        .trim();
 
         const pdf = new jsPDF({
             orientation: 'p',
@@ -61,16 +69,26 @@ const Simplifiqueai = () => {
         });
 
         const pageWidth = pdf.internal.pageSize.getWidth();
+        const pageHeight = pdf.internal.pageSize.getHeight();
         const margin = 15;
         const maxWidth = pageWidth - margin * 2;
 
         pdf.setFontSize(16);
-        pdf.text('Resposta Adaptada:', margin, 20);
-        pdf.setFontSize(12);
         pdf.setTextColor(40);
 
+        const lineHeight = 8; // espaçamento entre linhas
         const lines = pdf.splitTextToSize(plainText, maxWidth);
-        pdf.text (lines, margin, 35);
+
+        let y = 35; // posição inicial vertical
+
+        lines.forEach((line) => {
+            if (y + lineHeight > pageHeight - margin) {
+                pdf.addPage();
+                y = margin + 10; // nova posição no topo da página
+            }
+            pdf.text(line, margin, y);
+            y += lineHeight;
+        });
 
         const dataAtual = new Date().toLocaleDateString('pt-BR').replace(/\//g, '-');
         pdf.save(`resposta_adaptada_${dataAtual}.pdf`);
@@ -106,8 +124,6 @@ const Simplifiqueai = () => {
                         <p className='status-msg'>{statusMsg}</p>
                     )}
                     <button type='submit' className='dark-btn'>Enviar</button>
-                </form>                
-            </div>
             {resposta && (
                 <div className='texto'>
                     <div 
@@ -115,10 +131,12 @@ const Simplifiqueai = () => {
                         dangerouslySetInnerHTML={{
                             __html: DOMPurify.sanitize(resposta)
                         }}
-                    />
-                    <button className='dark-btn-pdf' onClick={handleDownloadPDF}>Baixar PDF</button>
+                        />
+                    <button type='button' className='dark-btn-pdf' onClick={handleDownloadPDF}>Baixar PDF</button>
                 </div>
             )}
+            </form>                
+        </div>
         </div>
     )
 }
